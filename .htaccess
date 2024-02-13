@@ -1,0 +1,8 @@
+#RewriteEngine on
+#RewriteRule ^links.html/? /links/[L]
+#RewriteRule ^([a-z]+)/?$ $1.html [NC] agrega / al final de url html
+
+RewriteEngine On
+
+# Redirecciona /links a /links.html
+RewriteRule ^links$ links.html [L]
